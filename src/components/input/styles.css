@@ -1,0 +1,10 @@
+.container--input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    background-color: var(--box-on-shape);
+    color: var(--text);
+    font-size: 1rem;
+    outline: none;
+}
