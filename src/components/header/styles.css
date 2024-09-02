@@ -20,9 +20,9 @@
 }
 
 .container--header a:hover {
-    color: var(--orange-500);
+    color: var(--blue);
 }
 
 .container--header a.active {
-    color: var(--orange-500);
+    color: var(--blue);
 }
