@@ -15,9 +15,7 @@ function LoginPage() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log('Email:', email);
-        console.log('Password:', password);
-
+        
         login(email, password);
 
         if(email === 'admin' && password === '1234') {

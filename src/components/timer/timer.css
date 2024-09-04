@@ -1,0 +1,33 @@
+.container--timer{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8rem;  /** 18rem = 160px*/
+    line-height: 8rem;
+    color: var(--text);
+    display: flex;
+    gap: 1rem;
+}
+
+.container--timer button{
+    width: 4rem;
+    height: 4rem;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--box-on-shape);
+    color: var(--text);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.container--timer span{
+    background-color: var(--box-on-shape);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+.container--timer .separator--timer{
+    padding: 2rem 0;
+    color: var(--orange-500);
+    width: 6.1rem;  /** 6.1rem = 60px*/
+    display: flex;
+    justify-content: center;
+}
